@@ -15,6 +15,7 @@ export default function Login() {
       <div>
         <Image src={apresentacao} alt="Imagem de login." />
       </div>
+
       <div>
         <label htmlFor="">E-mail:</label>
         <input type="text" placeholder="email@email.com" />
