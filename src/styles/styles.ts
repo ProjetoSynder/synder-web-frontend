@@ -1,10 +1,8 @@
 import { createGlobalStyle } from 'styled-components'
 
 export const colors = {
-  red: '#E66767',
-  yellow: '#fff8f1',
-  white: '#fff',
-  darkYellow: '#ffebd9'
+  lightGreen: '#22AF89',
+  white: '#fff'
 }
 
 export const breakpoints = {
@@ -18,9 +16,5 @@ export const GlobalCss = createGlobalStyle`
   box-sizing: border-box;
   list-style: none;
   font-family: 'Roboto', sans-serif;
-}
-
-body{
-  background-color: ${colors.yellow}
 }
 `
