@@ -20,10 +20,8 @@ export default function Login() {
         <input type="text" placeholder="email@email.com" />
         <label htmlFor="">Senha:</label>
         <input type="text" placeholder="123456" />
-
         <span>Esqueceu a senha?</span>
         <DisabledButton>LOGIN</DisabledButton>
-
         <span>
           Você não tem uma conta? <span>Clique aqui</span>
         </span>
